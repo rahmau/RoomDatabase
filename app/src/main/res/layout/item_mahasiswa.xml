@@ -92,6 +92,27 @@
             android:layout_height="match_parent"
             android:layout_weight="2"/>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btn_delete"
+        android:text="Update" />
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Delete" />
+    </LinearLayout>
+
     <View
         android:layout_margin="5dp"
         android:layout_width="match_parent"
